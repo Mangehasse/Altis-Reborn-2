@@ -123,7 +123,7 @@ switch(_shop) do {
 						["hgun_Pistol_heavy_02_F",nil,7500],
 						["hgun_Rook40_F",nil,7500],
 						["hgun_PDW2000_F",nil,35000],
-						["arifle_SDAR_F",nil,55000],
+						["arifle_SDAR_F",nil,54000],
 						["arifle_TRG21_F",nil,250000],
 						["optic_MRCO",nil,12500],
 						["optic_Holosight_smg",nil,5000],

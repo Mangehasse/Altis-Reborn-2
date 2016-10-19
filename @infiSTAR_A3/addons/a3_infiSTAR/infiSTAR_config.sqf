@@ -79,7 +79,7 @@ _use_html_load_on_adminmenu = true;		/* default and recommended is TRUE. infiSTA
 _adminUIDandAccess =
 [
 	[
-		['76561197978276432','76561198067925668','76561198007020809','76561198074426468','76561198049763982','76561198251801166','76561198128602571','76561198045709258','76561198024707876','76561198073821219'],	// Admin lvl 5
+		['76561197978276432','76561198049763982','76561198075421650','76561198047338476','76561198060247632'],	// Admin lvl 5
 		[
 			'Teleport On Map Click',
 'Teleport - Target To Me',
@@ -177,25 +177,178 @@ _adminUIDandAccess =
 	[
 		['UID1','UID2','UID3','...'],	// Admin lvl 4
 		[
-			'Teleport - Me To Target','Teleport On Map Click','Delete Vehicle','Revive','spectating'
+			'Teleport On Map Click',
+'Teleport - Target To Me',
+'Teleport - Me To Target',
+'Teleport In Facing Direction (10m steps)',
+'spectating',
+'AdminConsole',
+'Delete Vehicle',
+'FlyUp','EjectTarget',
+'ToggleVehLock',
+'UpgradeBuilding',
+'ShowGear',
+'HealSelf',
+'HealRepairNear',
+'AddAmmoSelf',
+'AdminStart',
+'AdminLog',
+'Freeze Target',
+'UnFreeze Target',
+'==== Loadouts ====',
+'==== WeatherLord ====',
+'==== Base Deleter ====',
+'==== VirtualItems ====',
+'==== Weapons ====',
+'==== Magazines ====',
+'==== Bags ====',
+'==== Vehicles ====',
+'==== Objects ====',
+'==== AltisLife Money ====',
+'Remove Gear',
+'Revive','Heal',
+'Restore',
+'Move In My Vehicle',
+'Move In Target Vehicle',
+'Parachute Target',
+'Spawn UAV',
+'Spawn Cloak',
+'Spawn Sapper',
+'Spawn SapperB',
+'Eject','Eject Crew',
+'Kill',
+'Explode',
+'Zeus','Force Disconnect',
+'Kick (Silent)',
+'Kick (Announce)',
+'Ban (Silent)',
+'Ban (Announce)',
+'Default Epoch Player ESP',
+'Default Epoch Vehicle ESP',
+'infiSTAR Player ESP 1',
+'infiSTAR Player ESP 2',
+'infiSTAR Dead ESP',
+'infiSTAR AI ESP',
+'infiSTAR LockBox ESP',
+'infiSTAR Shelf ESP',
+'infiSTAR PlotPole ESP',
+'Fake Epoch group to nearest PlotPole',
+'infiSTAR MapIcons',
+'PlotPole Marker',
+'Vehicle Marker',
+'Construction Marker',
+'LockBox Marker',
+'DeadPlayer Marker',
+'God Mode',
+'Vehicle God Mode',
+'Lower Terrain','Vehboost',
+'UnlimAmmo',
+'noRecoil',
+'FastFire',
+'Stealth / Invisible',
+'Disable Announces',
+'Show FPS',
+'Give All Licenses',
+'Call EMP',
+'Mass Message',
+'DayTime',
+'NightTime',
+'Add / Remove Crypto',
+'Spawn Epoch-Box',
+'Spawn Support-Box1',
+'Spawn Support-Box2',
+'Spawn Support-Box3',
+'Spawn Ammo','showinfo',
+'Login as Arma Admin',
+'BIS FreeRoam Cam (works with ESP)',
+'FreeRoam Cam (does not work with ESP)',
+'Request Steam Name',
+'Dump unique client variables',
+'Restrain',
+'Unrestrain',
+'Arsenal'	// Adds Arsenal to the mousewheel actions if you press "," on the Numpad!
+
 		]
 	],
 	[
-		['UID1','UID2','UID3','...'],	// Admin lvl 3
+		['76561198067925668','76561198007020809','76561198003856440','76561198128602571'],	// Admin lvl 3
 		[
-			'Teleport - Me To Target','Teleport On Map Click','Delete Vehicle','Revive','spectating'
+			'Teleport - Me To Target',
+'spectating',
+'Delete Vehicle',
+'FlyUp',
+'ShowGear',
+'Freeze Target',
+'UnFreeze Target',
+'==== AltisLife Money ====',
+'Remove Gear',
+'Kick (Announce)',
+'Ban (Announce)',
+'Construction Marker',
+'DeadPlayer Marker',
+'Disable Announces',
+'Call EMP',
+'Mass Message',
+'DayTime',
+'NightTime',
+'Dump unique client variables',
+'Restrain',
+'Unrestrain'
 		]
 	],
 	[
-		['76561198194148602','76561198075421650','UID3','...'],	// Admin lvl 2
+		['76561198045709258','76561198073821219','76561198251801166'],	// Admin lvl 2
 		[
-			'Teleport - Me To Target','Teleport On Map Click'
+			'Teleport - Me To Target',
+'spectating',
+'Delete Vehicle',
+'ShowGear',
+'==== AltisLife Money ====',
+'Kick (Announce)',
+'Spawn Support-Box1',
+'Spawn Support-Box2',
+'Spawn Support-Box3',
+'Restrain',
+'Unrestrain'
 		]
 	],
 	[
-		['UID1','UID2','UID3','...'],	// Admin lvl 1
+		['76561198251801166','UID2','UID3','...'],	// Admin lvl 1
 		[
-			'Teleport - Me To Target'
+			'Teleport On Map Click',
+'Teleport - Target To Me',
+'Delete Vehicle',
+'ToggleVehLock',
+'ShowGear',
+'Freeze Target',
+'UnFreeze Target',
+'==== Loadouts ====',
+'==== WeatherLord ====',
+'==== Base Deleter ====',
+'==== VirtualItems ====',
+'==== Weapons ====',
+'==== Magazines ====',
+'==== Bags ====',
+'==== Vehicles ====',
+'==== Objects ====',
+'Remove Gear',
+'Revive',
+'Heal',
+'Restore',
+'Kick (Announce)',
+'God Mode',
+'Vehicle God Mode',
+'Call EMP',
+'Mass Message',
+'DayTime',
+'NightTime',
+'Spawn Support-Box1',
+'Spawn Support-Box2',
+'Spawn Support-Box3',
+'Spawn Ammo','showinfo',
+'Restrain',
+'Unrestrain'
+
 		]
 	]
 ];

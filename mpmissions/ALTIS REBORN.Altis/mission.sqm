@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=9;
+	toggles=137;
 	class ItemIDProvider
 	{
-		nextID=18889;
+		nextID=18890;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={22754.307,165.59512,19339.695};
-		dir[]={0.050293606,-0.6755808,-0.73558384};
-		up[]={0.046083715,0.73727518,-0.67401725};
-		aside[]={-0.99768251,1.1230441e-007,-0.068213783};
+		pos[]={12685.771,300.20972,14224.664};
+		dir[]={-0.60399395,-0.76982397,-0.20632355};
+		up[]={-0.72849596,0.63825202,-0.24885327};
+		aside[]={-0.32325917,-5.0989911e-008,0.94631338};
 	};
 };
 binarizationWanted=0;
@@ -254,7 +254,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=3710;
+		items=3711;
 		class Item0
 		{
 			dataType="Marker";
@@ -11025,7 +11025,7 @@ class Mission
 			};
 			id=2172;
 			type="Land_CashDesk_F";
-			atlOffset=7.6293945e-005;
+			atlOffset=0.18299866;
 		};
 		class Item465
 		{
@@ -11061,7 +11061,7 @@ class Mission
 			};
 			id=2175;
 			type="Land_CashDesk_F";
-			atlOffset=2.4795532e-005;
+			atlOffset=0.20999908;
 		};
 		class Item467
 		{
@@ -111554,8 +111554,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={12423.661,3.3527079,14116.582};
-				angles[]={6.2751913,4.2765455,0.0026529003};
+				position[]={12424.702,3.3516438,14116.111};
+				angles[]={6.2751846,4.2765455,0.0026520467};
 			};
 			side="Empty";
 			flags=4;
@@ -111565,6 +111565,7 @@ class Mission
 			};
 			id=18299;
 			type="Land_InfoStand_V2_F";
+			atlOffset=-7.5340271e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -112144,7 +112145,7 @@ class Mission
 			init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],5])";
 			id=18330;
 			type="Logic";
-			atlOffset=0.93947601;
+			atlOffset=13.417351;
 		};
 		class Item3427
 		{
@@ -122393,6 +122394,46 @@ class Mission
 			id=18888;
 			type="Land_LampAirport_F";
 			atlOffset=-2.4795532e-005;
+		};
+		class Item3710
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={12424.171,3.3605754,14117.396};
+				angles[]={6.2757149,4.4397335,0.0039095376};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this addAction[""Blackmarket clothing"",life_fnc_clothingMenu,""blackmarket_clothing""]; this setObjectTexture [0, ""textures\infostand.jpg""];";
+			};
+			id=18889;
+			type="Land_InfoStand_V2_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

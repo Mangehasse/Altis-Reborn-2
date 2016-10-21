@@ -651,9 +651,6 @@ switch(_shop) do {
 				["Hideout Armament",
 					[
 						["arifle_SDAR_F",nil,90000],
-						["arifle_TRG20_F",nil,375000],
-						["arifle_AKS_F",nil,345000],
-						["arifle_Katiba_F",nil,800000],
 						["hgun_Rook40_F",nil,16500],
 						["hgun_Pistol_heavy_02_F",nil,18500],
 						["hgun_ACPC2_F",nil,21500],
@@ -671,14 +668,12 @@ switch(_shop) do {
 						["optic_Hamr",nil,60000],
 						["optic_MRCO",nil,60000],
 						["16Rnd_9x21_Mag",nil,1000],
-						["20Rnd_556x45_UW_mag",nil,1000],
 						["30Rnd_545x39_Mag_F",nil,1000],
-						["30Rnd_556x45_Stanag",nil,1000],
 						["9Rnd_45ACP_Mag",nil,1000],
 						["6Rnd_45ACP_Cylinder",nil,1000],
 						["30Rnd_45ACP_Mag_SMG_01",nil,1000],
-						["30Rnd_9x21_Mag",nil,2500],
-						["30Rnd_65x39_caseless_green",nil,5000]
+						["30Rnd_9x21_Mag",nil,2500]
+
 					]
 				];
 			};

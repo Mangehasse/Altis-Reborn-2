@@ -700,7 +700,7 @@ switch(_shop) do {
 						["optic_MRCO",nil,50000],
 						["optic_Arco_blk_F",nil,40000],
 						["optic_Erco_blk_F",nil,40000],
-						["optic_Hamr",nil,4000000],
+						["optic_Hamr",nil,40000],
 						["Firstaidkit",nil,500],
 						["ToolKit",nil,500],
 						["NVGoggles",nil,5000]

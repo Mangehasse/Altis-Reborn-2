@@ -724,6 +724,68 @@ class Clothing {
 			{ "B_Carryall_cbr", "", 4500, { "", "", -1 } }
 		};
 	};
+	
+	class blackmarket_clothing {
+		title = "blackmarket_clothing";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "U_BG_Leader", "Guerilla Leader Uniform", 100000, { "", "", -1 } },
+			{ "U_IG_Guerilla1_1", "Guerilla Garment", 50000, { "", "", -1 } },
+			{ "U_I_G_resistanceLeader_F", "Combat Fatigues", 50000, { "", "", -1 } },
+			{ "U_C_Poor_1", "Worn Clothes", 1000, { "", "", -1 } }	
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_MilCap_blue", "", 35000, { "", "", -1 } },
+			{ "H_MilCap_gry", "", 35000, { "", "", -1 } },
+			{ "H_MilCap_oucamo", "", 35000, { "", "", -1 } },
+			{ "H_MilCap_ocamo", "", 35000, { "", "", -1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 25, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 20, { "", "", -1 } },
+			{ "G_Sport_Blackred", "", 20, { "", "", -1 } },
+			{ "G_Sport_Checkered", "", 20, { "", "", -1 } },
+			{ "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
+			{ "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
+			{ "G_Squares", "", 10, { "", "", -1 } },
+			{ "G_Aviator", "", 100, { "", "", -1 } },
+			{ "G_Lady_Mirror", "", 150, { "", "", -1 } },
+			{ "G_Lady_Dark", "", 150, { "", "", -1 } },
+			{ "G_Lady_Blue", "", 150, { "", "", -1 } },
+			{ "G_Lowprofile", "", 30, { "", "", -1 } },
+			{ "G_Combat", "", 55, { "", "", -1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_TacVest_camo", "", 250000, { "", "", -1 } },
+			{ "V_TacVest_brn", "", 250000, { "", "", -1 } },
+			{ "V_TacVest_blk", "", 250000, { "", "", -1 } },
+			{ "V_TacVest_oli", "", 250000, { "", "", -1 } },
+			{ "V_TacVest_khk", "", 250000, { "", "", -1 } },
+			{ "v_Tacvestir_blk", "", 230000, {"", "", -1 } },
+			{ "V_I_G_resistanceLeader_F", "", 100000, { "", "", -1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_AssaultPack_cbr", "", 2500, { "", "", -1 } },
+			{ "B_Kitbag_mcamo", "", 4500, { "", "", -1 } },
+			{ "B_TacticalPack_oli", "", 3500, { "", "", -1 } },
+			{ "B_FieldPack_ocamo", "", 3000, { "", "", -1 } },
+			{ "B_Bergen_sgg", "", 4500, { "", "", -1 } },
+			{ "B_Kitbag_cbr", "", 4500, { "", "", -1 } },
+			{ "B_Carryall_oli", "", 5000, { "", "", -1 } },
+			{ "B_Carryall_khk", "", 5000, { "", "", -1 } }
+		};
+	};
 
 	class kart {
 		title = "STR_Shops_C_Kart";

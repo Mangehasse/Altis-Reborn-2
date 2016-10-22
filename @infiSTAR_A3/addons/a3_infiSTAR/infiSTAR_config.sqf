@@ -89,8 +89,8 @@ _adminUIDandAccess =
 'AdminConsole',
 'Delete Vehicle',
 'FlyUp','EjectTarget',
-'ToggleVehLock'
-,'UpgradeBuilding',
+'ToggleVehLock',
+'UpgradeBuilding',
 'ShowGear',
 'HealSelf',
 'HealRepairNear',
@@ -317,6 +317,7 @@ _adminUIDandAccess =
 		[
 			'Teleport On Map Click',
 'Teleport - Target To Me',
+'spectating',
 'Delete Vehicle',
 'ToggleVehLock',
 'ShowGear',

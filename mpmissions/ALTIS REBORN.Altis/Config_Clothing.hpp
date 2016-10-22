@@ -293,7 +293,7 @@ class Clothing {
 			{ "H_Watchcap_blk", "Beanie [Black]", 75, { "life_coplevel", "SCALAR", 2 } },
 			{ "H_MilCap_gry", "Beanie [Black]", 1000, { "life_coplevel", "SCALAR", 3 } },
 			{ "H_Beret_gen_F", "Beret", 250, { "life_coplevel", "SCALAR", 2 } },
-			{ " H_MillCap_gen_", "MillCap", 250, { "life_coplevel", "SCALAR", 2 } }	
+			{ "H_MillCap_gen_", "MillCap", 250, { "life_coplevel", "SCALAR", 2 } }	
 		};
 
 		goggles[] = {

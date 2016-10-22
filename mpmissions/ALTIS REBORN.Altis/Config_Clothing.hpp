@@ -275,7 +275,9 @@ class Clothing {
 			{ "U_B_Wetsuit", "Wetsuit", 350, { "life_coplevel", "SCALAR", 2 } },
 			{ "U_OG_Guerilla3_1", "Undercover Clothes", 550, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_OG_Guerilla2_3", "Undercover Clothes", 550, { "life_coplevel", "SCALAR", 5 } },
-			{ "U_OG_Guerilla2_2", "Undercover Clothes", 550, { "life_coplevel", "SCALAR", 5 } }
+			{ "U_OG_Guerilla2_2", "Undercover Clothes", 550, { "life_coplevel", "SCALAR", 5 } },
+			{ "U_B_GEN_Soldier_F", "Soldier Uniform", 550, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_B_GEN_Commander_F", "Soldier Uniform", 550, { "life_coplevel", "SCALAR", 4 } }
 		};
 
 		headgear[] = {
@@ -289,7 +291,9 @@ class Clothing {
 			{ "H_Watchcap_camo", "Beanie [Green]", 75, { "life_coplevel", "SCALAR", 4 } },
 			{ "H_Watchcap_cbr", "Beanie [Coyote]", 75, { "life_coplevel", "SCALAR", 4 } },
 			{ "H_Watchcap_blk", "Beanie [Black]", 75, { "life_coplevel", "SCALAR", 2 } },
-			{ "H_MilCap_gry", "Beanie [Black]", 1000, { "life_coplevel", "SCALAR", 3 } }
+			{ "H_MilCap_gry", "Beanie [Black]", 1000, { "life_coplevel", "SCALAR", 3 } },
+			{ "H_Beret_gen_F", "Beret", 250, { "life_coplevel", "SCALAR", 2 } },
+			{ " H_MillCap_gen_", "MillCap", 250, { "life_coplevel", "SCALAR", 2 } }	
 		};
 
 		goggles[] = {
@@ -319,7 +323,8 @@ class Clothing {
 			{ "V_PlateCarrier1_blk", "", 15000, { "life_coplevel", "SCALAR", 4 } },
 			{ "V_PlateCarrierIA2_dgtl", "", 30000, { "life_coplevel", "SCALAR", 4 } },
 			{ "V_RebreatherB", "", 7500, { "life_coplevel", "SCALAR", 3 } },
-			{ "V_BandollierB_blk", "", 1000, { "life_coplevel", "SCALAR", 1 } }
+			{ "V_BandollierB_blk", "", 1000, { "life_coplevel", "SCALAR", 1 } },
+			{ "V_TacVest_gen_F", "", 1000, { "life_coplevel", "SCALAR", 2 } }	
 		};
 
 		backpacks[] = {

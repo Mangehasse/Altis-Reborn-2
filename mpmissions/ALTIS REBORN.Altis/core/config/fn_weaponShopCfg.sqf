@@ -658,7 +658,6 @@ switch(_shop) do {
 						["optic_ACO_grn_smg",nil,2500],
 						["V_Rangemaster_belt",nil,7500],
 						//["muzzle_snds_acp",nil,10000],
-						["muzzle_snds_H",nil,100000],
 						["Binocular",nil,100],
 						["ItemGPS",nil,50],
 						["ToolKit",nil,250],
@@ -672,7 +671,8 @@ switch(_shop) do {
 						["9Rnd_45ACP_Mag",nil,1000],
 						["6Rnd_45ACP_Cylinder",nil,1000],
 						["30Rnd_45ACP_Mag_SMG_01",nil,1000],
-						["30Rnd_9x21_Mag",nil,2500]
+						["30Rnd_9x21_Mag",nil,2000],
+						["20Rnd_556x45_UW_mag",nil,1100]
 
 					]
 				];

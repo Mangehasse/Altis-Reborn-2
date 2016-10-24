@@ -313,7 +313,7 @@ _adminUIDandAccess =
 		]
 	],
 	[
-		['UID1','UID2','UID3','...'],	// Admin lvl 1
+		['76561198024707876','UID2','UID3','...'],	// Admin lvl 1
 		[
 			'Teleport On Map Click',
 'Teleport - Target To Me',

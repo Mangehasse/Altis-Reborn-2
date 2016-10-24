@@ -75,7 +75,7 @@ switch (playerSide) do {
 	
 	case civilian: {
 		BANK = 250000; //Starting Bank Money
-		life_paycheck = 1750; //Paycheck Amount
+		life_paycheck = 10000; //Paycheck Amount
 	};
 	
 	case independent: {
